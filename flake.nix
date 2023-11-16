@@ -15,7 +15,7 @@
 
       customOut = flake-utils.lib.eachDefaultSystem (system:
         let
-          name = "node-nix-skel";
+          name = "tidal-statusboard";
           pkgs = nixpkgs.legacyPackages.${system};
 
           _callModule = module:

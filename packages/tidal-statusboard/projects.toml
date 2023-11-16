@@ -1,8 +1,8 @@
-[node-nix-skel]
-name = "node-nix-skel"
+[tidal-statusboard]
+name = "tidal-statusboard"
 relPath = ""
 subsystem = "nodejs"
 translator = "package-lock"
 translators = [ "package-lock",]
 
-[node-nix-skel.subsystemInfo]
+[tidal-statusboard.subsystemInfo]
